@@ -50,7 +50,7 @@ fun Qual_o_pesoTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-
+        //darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
     val view = LocalView.current
